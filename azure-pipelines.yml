@@ -18,7 +18,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-stage: TerraformValidate
+- stage: TerraformValidate
   jobs:
     - job: TerraformValidateJob
       continueOnError: false
